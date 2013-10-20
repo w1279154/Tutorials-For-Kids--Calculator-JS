@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>Calculator in JS</title>
+	<script src="calculator_brain.js"></script>
+</head>
+<body>
+	<input type="text" height="20px" id="display" disabled></input>
+	<button onclick="clearDisplay();">Clear Display</button>
+	<br/>
+
+	<button class="number" onclick="onClickNumber(this);">7</button>
+	<button class="number" onclick="onClickNumber(this);">8</button>
+	<button class="number" onclick="onClickNumber(this);">9</button>
+	<br/>
+
+	<button class="number" onclick="onClickNumber(this);">4</button>
+	<button class="number" onclick="onClickNumber(this);">5</button>
+	<button class="number" onclick="onClickNumber(this);">6</button>
+	<br/>
+
+	<button class="number" onclick="onClickNumber(this);">1</button>
+	<button class="number" onclick="onClickNumber(this);">2</button>
+	<button class="number" onclick="onClickNumber(this);">3</button>
+	<br/>
+
+	<button class="number" onclick="onClickNumber(this);">.</button>
+	<button class="number" onclick="onClickNumber(this);">0</button>
+	<button class="equals" onclick="onClickEquals();">=</button>
+	<br/>
+	<br/>
+
+	<button class="operation" onclick="onClickOperation(this);">+</button>
+	<button class="operation" onclick="onClickOperation(this);">-</button>
+	<button class="operation" onclick="onClickOperation(this);">x</button>
+	<button class="operation" onclick="onClickOperation(this);">/</button>
+	<br/>
+	<br/>
+
+	<div id="memory">
+		<h4>Calculation History</h4>
+	</div>
+	<button onclick="clearHistory();">Clear History</button>
+
+
+</body>
+</html>
